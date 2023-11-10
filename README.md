@@ -35,6 +35,14 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+To add TypeScript to an existing project, use this command:
+
+    npm install --save typescript @types/node @types/react @types/react-dom @types/jest
+
+To add TypeScript to a new project, use this command:
+
+    npx create-react-app . --template typescript
+
 
 # Tricks
 
