@@ -35,6 +35,12 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ** To learn React, check out the [React documentation](https://reactjs.org/).
 
+# Tricks
+
+** To run npx with a specific registry using TypeScript as base template, use this command (replace the registry url with your own):
+
+    npm_config_registry=https://registry.npmjs.org npx create-react-app . --template typescript
+
 ** To add TypeScript to an existing project, use this command:
 
     npm install --save typescript @types/node @types/react @types/react-dom @types/jest
@@ -48,10 +54,3 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
     npm install sass
 
 Now you can rename src/App.css to src/App.scss and update src/App.jsx or App.tsx to import src/App.scss.
-
-# Tricks
-
-To run npx with a specific registry using TypeScript as base template, use this command (replace the registry url with your own):
-
-    npm_config_registry=https://registry.npmjs.org npx create-react-app . --template typescript
-        
