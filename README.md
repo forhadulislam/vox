@@ -31,18 +31,23 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+** You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+** To learn React, check out the [React documentation](https://reactjs.org/).
 
-To add TypeScript to an existing project, use this command:
+** To add TypeScript to an existing project, use this command:
 
     npm install --save typescript @types/node @types/react @types/react-dom @types/jest
 
-To add TypeScript to a new project, use this command:
+** To add TypeScript to a new project, use this command:
 
     npx create-react-app . --template typescript
 
+** To add support for SASS, use this command:
+
+    npm install sass
+
+Now you can rename src/App.css to src/App.scss and update src/App.jsx or App.tsx to import src/App.scss.
 
 # Tricks
 
