@@ -17,6 +17,7 @@ export const Navbar = () => {
                 <li><a className="nav-item nav-link active" href="#">Home</a></li>
                 <li><a className="nav-item nav-link" href="#">Features</a></li>
                 <li><a className="nav-item nav-link" href="#">Pricing</a></li>
+                <li><a className="nav-item nav-link" href="#">Login</a></li>
                 <li><a className="nav-item nav-link disabled" href="#" tabIndex={-1} aria-disabled="true"></a></li>
             </ul>
         </div>
