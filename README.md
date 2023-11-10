@@ -2,10 +2,6 @@
 
 Vox - A React Learning project with TypeScript
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
@@ -54,3 +50,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
     npm install sass
 
 Now you can rename src/App.css to src/App.scss and update src/App.jsx or App.tsx to import src/App.scss.
+
+# References
+
+** This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
