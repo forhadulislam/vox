@@ -3,6 +3,7 @@ import React from 'react';
 import './App.scss';
 import {Navbar} from "./libs/components/navbar/navbar";
 
+
 function App() {
   return (
     <div className="App">
